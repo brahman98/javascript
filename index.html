@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="test()">Test_button</button><br /><br />
+    <button onclick="nameOfAdmin()">Test_button_2</button><br /><br />
+    <button onclick="countNumbers()">Test_count_numbers_1000108</button
+    ><br /><br />
+    <script>
+      function test() {
+        let celsus = +prompt(
+          "Введите температуру по Цельсию, а я переведу ее в температуру по Фаренгейту"
+        );
+        let farengeit = (9 / 5) * celsus + 32;
+        console.log(`Температура по Фаренгейту ${farengeit} градусов.`);
+      }
+
+      function nameOfAdmin() {
+        let name = "Василий";
+        let admin = name;
+        console.log(admin);
+      }
+
+      function countNumbers() {
+        let number = 1000 + "108";
+        console.log(number);
+      }
+    </script>
+  </body>
+</html>
